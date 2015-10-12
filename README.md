@@ -1,6 +1,6 @@
 ## Description
 
-Turn your Amazon Dash Button into an Amazon Mark Button.
+Turn your Amazon Dash Button into an Amazon Mark Button!
 
 A Node.js script that performs a MarkLogic database operation when an
 Amazon Dash Button is pressed.

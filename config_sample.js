@@ -1,9 +1,14 @@
 var config = {};
 
-config.dash = {
+config.button = {
   address: 'MAC_ADDRESS'
 };
 
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-  module.exports = config;
-}
+config.marklogic = {
+  host: 'localhost',
+  user: 'USER',
+  pass: 'PASSWORD',
+  db: 'Documents',
+  // Supported operations: 'clear', 'backup', 'merge', 'reindex'
+  op: 'merge'
+};

@@ -1,8 +1,9 @@
 ## Description
 
-A Node.js script that reacts to an Amazon Dash Button. When the Amazon
-Dash Button is button is pressed, the script displays information in the
-console and, on Mac OS X, plays a random sound.
+Turn your Amazon Dash Button into an Amazon Mark Button.
+
+A Node.js script that performs a MarkLogic database operation when an
+Amazon Dash Button is pressed.
 
 ## References
 
@@ -24,7 +25,7 @@ console and, on Mac OS X, plays a random sound.
 
    [How to install Python libpcap module on Mac OS X](http://stackoverflow.com/questions/27149377/how-to-install-python-libpcap-module-on-mac-os-x)
 
-3. Install order-button:
+3. Install amazon-mark-button:
 
    ```
    $ git clone https://github.com/wooldridge/order-button
@@ -33,7 +34,7 @@ console and, on Mac OS X, plays a random sound.
 4. Install the npm dependencies for order-button:
 
    ```
-   $ cd order-button
+   $ cd amazon-mark-button
    $ npm install
    ```
 
@@ -51,22 +52,22 @@ a script from the node-dash-button module:
    $ cd node_modules/node-dash-button
    $ node bin/findbutton
    ```
-   Press your dash button and look for corresponding MAC address in the
+   Press your dash button and look for the corresponding MAC address in the
    console. MAC addresses look like this:
 
    ```
    74:c2:46:ad:f5:b7
    ```
 
-9. Open the config_sample.js file and add the MAC address. Save that file as
+9. Open the config_sample.js file and add the MAC address. Also specify your
+MarkLogic settings (username, password, operation, etc.). Save that file as
 config.js.
 
-10. Run the order-button script:
+10. Run the node-dash-button button.js script:
 
    ```
    $ cd ../..
-   $ node index
+   $ node button
    ```
 
-   When you press the Amazon Dash Button, your console displays information
-   and, on Mac OS X, plays a random sound.
+   When you press the Amazon Dash Button, the database operation is performed.

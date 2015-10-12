@@ -28,10 +28,10 @@ Amazon Dash Button is pressed.
 3. Install amazon-mark-button:
 
    ```
-   $ git clone https://github.com/wooldridge/order-button
+   $ git clone https://github.com/wooldridge/amazon-mark-button
    ```
 
-4. Install the npm dependencies for order-button:
+4. Install the npm dependencies for amazon-mark-button:
 
    ```
    $ cd amazon-mark-button

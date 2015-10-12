@@ -2,7 +2,7 @@
 
 Turn your Amazon Dash Button into an Amazon Mark Button!
 
-A Node.js script that performs a MarkLogic database operation when an
+This Node.js script  performs a MarkLogic database operation when an
 Amazon Dash Button is pressed.
 
 ## References
@@ -60,8 +60,15 @@ a script from the node-dash-button module:
    ```
 
 9. Open the config_sample.js file and add the MAC address. Also specify your
-MarkLogic settings (username, password, operation, etc.). Save that file as
-config.js.
+MarkLogic settings (username, password, database, operation, etc.). The
+following operations are supported:
+
+   * clear
+   * backup
+   * merge
+   * reindex
+
+   Save the updated config_sample.js file as config.js.
 
 10. Run the node-dash-button button.js script:
 

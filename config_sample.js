@@ -12,3 +12,5 @@ config.marklogic = {
   // Supported operations: 'clear', 'backup', 'merge', 'reindex'
   op: 'merge'
 };
+
+module.exports = config;

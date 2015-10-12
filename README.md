@@ -70,11 +70,11 @@ following operations are supported:
 
    Save the updated config_sample.js file as config.js.
 
-10. Run the node-dash-button button.js script:
+10. Run the button.js script:
 
    ```
    $ cd ../..
-   $ node button
+   $ node button.js
    ```
 
    When you press the Amazon Dash Button, the database operation is performed.

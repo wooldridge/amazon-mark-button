@@ -1,3 +1,5 @@
+<img alt="Amazon Mark Button" src="https://raw.githubusercontent.com/wooldridge/amazon-mark-button/master/images/amazon-mark-button_sm.png" />
+
 ## Description
 
 Turn your Amazon Dash Button into an Amazon Mark Button!

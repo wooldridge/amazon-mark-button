@@ -1,10 +1,6 @@
 <img alt="Amazon Mark Button" src="https://raw.githubusercontent.com/wooldridge/amazon-mark-button/master/images/amazon-mark-button_sm.png" />
 
-## Description
-
-Turn your Amazon Dash Button into an Amazon Mark Button!
-
-This Node.js script  performs a MarkLogic database operation when an
+Turn your Amazon Dash Button into an Amazon Mark Button! This Node.js script  performs a MarkLogic database operation when an
 Amazon Dash Button is pressed.
 
 ## References

@@ -7,6 +7,9 @@ Amazon Dash Button is pressed.
 
 * [node-dash-button](https://www.npmjs.com/package/node-dash-button)
 * [How I Hacked Amazon’s $5 WiFi Button to track Baby Data](https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8)
+* [Amazon Dash Button Teardown](https://mpetroff.net/2015/05/amazon-dash-button-teardown/)
+* [Dash Hacking](https://learn.adafruit.com/dash-hacking-bare-metal-stm32-programming/overview)
+* [Amazon_Dash_Button](https://github.com/dekuNukem/Amazon_Dash_Button)
 
 ## Prerequisites
 
